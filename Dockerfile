@@ -2,7 +2,7 @@
 
 FROM dockerfile/nodejs
 
-ADD . /data/
+ADD .
 RUN npm install
 EXPOSE 8080
 CMD node app.js
